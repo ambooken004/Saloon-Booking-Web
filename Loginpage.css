@@ -54,12 +54,12 @@ body
 #password-text:hover
 {
     background-color: rgb(223, 223, 241);
-    color: white;
+    color: black;
 }
 #username-text:hover
 {
     background-color: rgb(223, 223, 241);
-    color: white;
+    color: black;
 }
 
 
