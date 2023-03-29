@@ -30,7 +30,7 @@ body
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 50px;
+    padding: 55px;
     height: 400px;
     width: 400px;
     border: 2px solid black;
@@ -47,14 +47,39 @@ body
 label
 {
     font-style: italic;
-    padding: 2px;
+    padding: 10px;
     font-weight: bolder;
 }
 
 #name-text , #email-text , #password-text , #mobileno-text
 {
     width: 300px;
-    height: 25px;
+    height: 150px;
     border-radius: 20px;
     text-align: center;
+}
+
+.regis-checkbox-container
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#register-btn
+{
+    width: 100px;
+    height: 40px;
+    margin-top: none;
+    position: sticky;
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    cursor: pointer;
+    border: 0px;
+}
+
+#checkbox
+{
+    margin: 9px;
+    padding: 10px;
 }
