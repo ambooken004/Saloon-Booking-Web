@@ -1,2 +1,60 @@
+body
+{
+    background-image: url("https://s3.amazonaws.com/salonclouds-uploads/blog/blog_1657064071471527626.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
 
+
+#home-btn
+{
+    width: 100px;
+    height: 40px;
+    margin-top: none;
+    position: sticky;
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    cursor: pointer;
+    border: 0px;
+}
+#signup-text
+{
+    display: flex;
+    justify-content: center;
+}
+.signup-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: 400px;
+    margin-bottom: 80px;
+    align-items: center;
+    background-color: rgb(243, 243, 237);
+    opacity: 0.8;
+
+}
+
+label
+{
+    font-style: italic;
+    padding: 2px;
+    font-weight: bolder;
+}
+
+#name-text , #email-text , #password-text , #mobileno-text
+{
+    width: 300px;
+    height: 25px;
+    border-radius: 20px;
+    text-align: center;
+}
