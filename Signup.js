@@ -17,6 +17,7 @@ const disableRegisBtn =(event) => {
     {
         registerBtn.disabled=false;
         registerBtn.style.backgroundColor="black";
+        checkBox.disabled=true;
     }
 
     // Write code for the condition (if checkbox is unchecked after it's  been checked)...  LATER
