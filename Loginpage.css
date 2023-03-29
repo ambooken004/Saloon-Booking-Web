@@ -49,6 +49,7 @@ body
     display: flex;
     border-radius: 20px;
     border: 0;
+    
 }
 
 #password-text:hover
