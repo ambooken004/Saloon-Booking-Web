@@ -2,6 +2,7 @@ const homeBtn = document.getElementById("home-btn");
 const checkBox = document.getElementById("checkbox");
 const registerBtn = document.getElementById("register-btn");
 registerBtn.disabled=true;
+registerBtn.style.backgroundColor="grey";
 
 const changeColor = (event) => {
         event.target.style.backgroundColor= "blue";
@@ -21,13 +22,13 @@ checkBox.addEventListener("change", function()
     if(this.checked)
     {
         registerBtn.disabled=false;
-        registerBtn.style.backgroundColor="green";
+        registerBtn.style.backgroundColor="black";
 
     }
     else
     {
         registerBtn.disabled=true;
-        registerBtn.style.backgroundColor="black";
+        registerBtn.style.backgroundColor="grey";
     }
 });
 registerBtn.addEventListener("click",onClicked);
