@@ -3,7 +3,7 @@ const signUpBtn = document.getElementById("signup-btn");
 const logInBtn = document.getElementById("login-btn");
 
 const changeColor = (event) => {
-    event.target.style.backgroundColor="purple";
+    event.target.style.backgroundColor="blue";
     event.target.style.color="white";
 };
 
