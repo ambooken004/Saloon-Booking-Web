@@ -1,0 +1,124 @@
+#logo{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+button{
+    background-color: burlywood;
+    margin: 10px;
+}
+#divwrapper{
+    display: flex;
+    justify-content: center;
+}
+#topline{
+    width: 1240px;
+    height: 5px;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#navbar-container{
+    
+    justify-content: space-between;
+    margin-left: 700px;
+    
+  
+
+
+}
+#navbar-wrapper{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+#home-btn{
+    
+    margin-left:50px;
+}
+#appoinment-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.appoinment-card1{
+    height:350px;
+    width:220px;
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.appoinment-card2{
+    height:350px;
+    width:220px;
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.appoinment-card3{
+    height:350px;
+    width:220px;
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.service-btn{
+    width: 100px;
+    height: 50px;
+    border: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.service-btn:hover{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+   
+}
+.date-btn{
+    width: 100px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.time-btn{
+    width: 100px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+#serviceimg1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 5px ;
+}
+#serviceimg2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 5px ;
+}
+#serviceimg3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 5px ;
+}
