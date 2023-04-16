@@ -11,9 +11,9 @@ const originalColor = (event) => {
     event.target.style= "none";
 };
 
-const onClicked = () => {
+/* const onClicked = () => {
     alert("Thanks for registering...");
-}
+} */
 
 homeBtn.addEventListener("mouseover",changeColor);
 homeBtn.addEventListener("mouseleave",originalColor);
@@ -31,4 +31,4 @@ checkBox.addEventListener("change", function()
         registerBtn.style.backgroundColor="grey";
     }
 });
-registerBtn.addEventListener("click",onClicked);
+/* registerBtn.addEventListener("click",onClicked); */
