@@ -1,6 +1,6 @@
 body
 {
-    
+    font-family: 'Lobster', cursive;
 }
 
 .home-btn
@@ -59,6 +59,7 @@ body
     height: 40px;
     display: flex;
     border: 1px solid gray;
+    font-family: 'Lobster', cursive;
 
     
 }
@@ -93,6 +94,7 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Lobster', cursive;
 }
 .signup-container{
     width: 400px;
@@ -135,3 +137,4 @@ a{
 .signup-link{
     font-size: x-large;
 }
+
