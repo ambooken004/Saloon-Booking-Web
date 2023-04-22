@@ -1,0 +1,86 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkAq_BJEl911CdzjwENAdD3AyFY22WAbVSSezHH6zQXAUy1zGbSiVtuwzjNEz5k-6ADkM&usqp=CAU");
+}
+#logo{
+    background-color: black;
+    color: white;
+    height:80px;
+    width: 80px;
+    border-radius: 70px;
+    margin: 15px auto 25px auto;
+}
+#text{
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+}
+#line{
+    background-color: white;
+    width:89%;
+    height:1px;
+    margin:0 auto 25px auto;
+}
+#nav-bar{
+    height: 40px;
+    margin:0 5% 0 5%;
+    display:flex;
+    justify-content: space-between;
+}
+#group-1{
+    width:30%;
+    display:flex;
+    justify-content: flex-start;
+}
+#group-2{
+    width:50%;
+    display:flex;
+    justify-content: space-between;
+}
+#nav-bar button{
+    background-color:  rgba(255,255,255,0);
+    height:40px;
+    padding:10px;
+    color: white;
+    font-size: 15px;
+    border: 0;
+}
+#nav-bar button:hover{
+    background-color: black;
+}
+h1{
+    width:89%;
+    color:white;
+    font-family: sans-serif;
+    font-size: 40px;
+    margin:30px auto 40px auto;
+}
+#display-feedbacks{
+    width:89%;
+    margin:0px auto 0px auto;
+    padding:0px 10px 0px 10px;
+    display:grid;
+    grid-template-columns:350px 350px 350px ;
+    grid-template-rows:250px;
+    grid-auto-columns: 350px;
+    grid-auto-rows: 250px;
+    grid-auto-flow: row;
+    gap: 50px 100px;
+}
+.feedback{
+    background-color: rgba(255,255,255,0.5);
+    border-radius:10px;
+    border-color:  white;
+    border-style: solid;
+}
+#user-feedback{
+    background-color: black;
+    width:50%;
+    margin:20px auto;
+}
+#Textbox{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    width:100%;
+}
