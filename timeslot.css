@@ -80,6 +80,6 @@ body{
 #slots div button:hover{
         font-size: 20px;
 }
-#slots div button:checked{
+#slots div button:active{
     color: red;
 }
