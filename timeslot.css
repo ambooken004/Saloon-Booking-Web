@@ -75,6 +75,7 @@ body{
         font-size: 15px;
         border-color: goldenrod;
         border-style: solid;
+        border-radius: 5px;
 }
 #slots div button:hover{
         font-size: 20px;
