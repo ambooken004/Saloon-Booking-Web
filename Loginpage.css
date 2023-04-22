@@ -59,12 +59,18 @@ body
     height: 40px;
     display: flex;
     border: 1px solid gray;
-    font-family: 'Lobster', cursive;
+    
+    padding-left: 10px;
 
     
 }
+#username-text::placeholder{
+    font-family: 'Lobster', cursive;
+}
 
-
+#password-text::placeholder{
+    font-family: 'Lobster', cursive;
+}
 
 
 .login-btn 
