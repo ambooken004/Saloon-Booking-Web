@@ -1,9 +1,6 @@
 body
 {
-    background-image: url("https://airows.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTM4NTUxMzQyNzUzOTE2MzI2/20111024_baxterfinley_038-editjpg.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    
 }
 
 .home-btn
@@ -27,10 +24,10 @@ body
 
 #logo
 {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -41,8 +38,6 @@ body
     height: 400px;
     width: 400px;
     border: 2px solid black;
-    background-color: rgba(255, 239, 213, 0.684);
-    border-radius: 30px;
     margin-top: 40px;
     margin-left: 545px;
     margin-bottom: 80px;
@@ -54,11 +49,14 @@ body
 #username-text , #password-text
 {
     width: 300px;
-    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     height: 40px;
     display: flex;
-    border-radius: 20px;
     border: 0;
+
     
 }
 
@@ -66,6 +64,7 @@ body
 {
     background-color: rgb(223, 223, 241);
     color: black;
+   
 }
 #username-text:hover
 {
@@ -114,4 +113,27 @@ body
 }
 a{
   cursor: pointer;  
+}
+.seperation1{
+    margin: auto;
+    width: 130px;
+    border: 2px solid black;
+    display: inline-block;
+}
+.seperation2{
+    margin: auto;
+    width: 130px;
+    border: 2px solid black;
+    display: inline-block;
+}
+.or-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#or{
+    
+}
+.forgotten{
+    text-align: center;
 }
