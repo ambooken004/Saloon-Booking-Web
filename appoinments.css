@@ -5,7 +5,7 @@
     border-radius: 50%;
 }
 button{
-    background-color: burlywood;
+    background-color: #706A6A;
     margin: 10px;
 }
 #divwrapper{
@@ -13,9 +13,9 @@ button{
     justify-content: center;
 }
 #topline{
-    width: 1240px;
-    height: 5px;
-    background-color: black;
+    width: 1175px;
+    height: 2px;
+    background-color: white;
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -36,6 +36,9 @@ button{
 #home-btn{
     
     margin-left:50px;
+    background-color: #27241e;
+    border: none;
+    color: white;
 }
 #appoinment-wrapper{
     display: flex;
@@ -81,6 +84,7 @@ button{
     padding-left: 10px;
     padding-right: 10px;
     cursor: pointer;
+    
 }
 .service-btn:hover{
     margin-left: 0px;
@@ -95,6 +99,7 @@ button{
     margin-left: 5px;
     margin-right: 5px;
     cursor: pointer;
+   
 }
 .time-btn{
     width: 100px;
@@ -103,22 +108,47 @@ button{
     margin-right: 5px;
     margin-bottom: 20px;
     cursor: pointer;
+    
 }
 #serviceimg1{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 135px;
+    height: 135px;
+    border-radius: 100px;
     margin: 5px ;
 }
 #serviceimg2{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 135px;
+    height: 135px;
+    border-radius: 100px;
     margin: 5px ;
 }
 #serviceimg3{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 135px;
+    height: 135px;
+    border-radius: 100px;
     margin: 5px ;
+}
+body{
+    background-color: #27241e;
+   
+}
+#appoinments-btn{
+    background-color: #27241e;
+    border: none;
+    color: white;
+}
+#discount-btn{
+    background-color: #27241e;
+    border: none;
+    color: white;
+}
+#services-btn{
+    background-color: #27241e;
+    border: none;
+    color: white;
+}
+#login-btn{
+    background-color: #27241e;
+    border: none;
+    color: white;
 }
