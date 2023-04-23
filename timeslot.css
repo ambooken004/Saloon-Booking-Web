@@ -67,11 +67,11 @@ body{
     grid-auto-flow: row;
     gap: 25px 100px;
 }
-#slots div button{
+#slots button{
         width: 250px;
         height:50px;
         background-color: black;
-        color: green;
+        color: white;
         text-align: center;
         font-family: sans-serif;
         font-size: 15px;
@@ -79,9 +79,9 @@ body{
         border-style: solid;
         border-radius: 5px;
 }
-#slots div button:hover{
+#slots button:hover{
         font-size: 20px;
 }
-#slots div button:active{
+#slots button:active{
     color: red;
 }
