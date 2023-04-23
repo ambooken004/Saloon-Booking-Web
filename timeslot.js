@@ -20,7 +20,7 @@ const timeSlot14 = document.getElementById("14");
 const markBooked = (event) => {
     event.target.textContent = "BOOKED";
     event.target.style.backgroundColor = "yellow";
-    event.target.style.color = "black";
+    event.target.style.color = "green";
     event.target.style.borderRadius = "50px";
     
 };
