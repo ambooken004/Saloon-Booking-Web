@@ -44,6 +44,7 @@ body{
     font-size: 15px;
     border:0;
     border-radius: 5px;
+    cursor: pointer;
 }
 #nav-bar button:hover{
     background-color:  rgba(0, 0, 0,1);
@@ -78,6 +79,7 @@ body{
         border-color: goldenrod;
         border-style: solid;
         border-radius: 5px;
+        cursor: pointer;
 }
 #slots button:hover{
         font-size: 20px;

@@ -23,6 +23,7 @@ body
     height: 30%;
     margin-left: 20px;
 }
+
 .unordered-lists
 {
     padding: 20px;
@@ -31,6 +32,7 @@ body
     justify-content: space-between;
 
 }
+
 #home-btn
 {
     width: 100px;
@@ -46,6 +48,13 @@ body
     padding: 10px;
 }
 
+#home-btn:hover
+{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
 #appoint-btn,  #discount-btn, #service-btn, #login-btn
 {
     width: 100px;
@@ -59,6 +68,34 @@ body
     cursor: pointer;
     border: 0px;
     padding: 10px;
+}
+
+#appoint-btn:hover
+{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#discount-btn:hover
+{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#service-btn:hover
+{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#login-btn:hover
+{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
 }
 
 li
@@ -109,6 +146,7 @@ footer
     margin-top: 200px;
     margin-left: 50px;
 }
+
 h3
 {
     color: black;
