@@ -6,39 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Signup.css">
     <title>Sign Up Page - Saloon Booking Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 <body>
     <a href="./Homepage.html" target="_blank">
-        <button id="home-btn">Home</button>
+        <button class="home-btn">Home</button>
     </a>
     <br>
     <h2 id="signup-text">Sign Up</h2>
     <br>
-    <div class="signup-container">
-        <label>Name</label>
-        <br>
-        <input type="text" id="name-text" placeholder="Enter Name">
-        <br>
-        <label>Email</label>
-        <br>
-        <input type="email" id="email-text" placeholder="Enter Email">
-        <br>
-        <label>Password</label>
-        <br>
-        <input type="password" id="password-text" placeholder="Enter Password">
-        <br>
-        <label>Mobile Number</label>
-        <br>
-        <input type="number" id="mobileno-text" placeholder="Enter Mobile Number">
-        <br>
-        <div class="regis-checkbox-container">
-            <a href="./Loginpage.html">
-                <button id="register-btn">Register</button>
-            </a>
-            <input type="checkbox" id="checkbox">
-            <label for="checkbox">I agree to all terms and conditions</label>
+    <div class="signup-wrapper">
+        <div class="signup-container">
+            <label class="label">Name</label>
+            
+            <input type="text" class="name-text" placeholder="Enter Name">
+            
+            <label class="label">Email</label>
+            
+            <input type="email" class="email-text" placeholder="Enter Email">
+           
+            <label class="label">Password</label>
+            
+            <input type="password" class="password-text" placeholder="Enter Password">
+            
+            <label class="label">Mobile Number</label>
+            
+            <input type="number" class="mobileno-text" placeholder="Enter Mobile Number">
+            
+            <div class="regis-checkbox-container">
+                <a href="./Loginpage.html">
+                    <button id="register-btn">Register</button>
+                </a>
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">I agree to all terms and conditions</label>
+            </div>
         </div>
     </div>
+    
 
     <script src="./Signup.js"></script>
     
