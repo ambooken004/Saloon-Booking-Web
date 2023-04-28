@@ -1,6 +1,8 @@
 body{
     background-image: url("https://images.pexels.com/photos/100733/pexels-photo-100733.jpeg?cs=srgb&dl=pexels-monoar-rahman-100733.jpg&fm=jpg");
     background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 #logo{
     background-color: black;
